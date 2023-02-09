@@ -1,0 +1,261 @@
+/*Esta propiedad y valor permite incluir el padding y el border al width de la caja*/
+*{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+/*Aqui termina el codigo de arriba*/
+
+/*Aqui va el codigo de los medios de pago (imagen)*/
+.pagar{
+    text-align: center;
+}
+/*Aqui termina el codigo de los medios de pago(imagen)*/
+
+/*Aqui comienza diseño del icono*/
+.icono{
+    padding:0px;
+    margin-top: 0px;
+}
+
+/*Aqui termina diseño icono*/
+
+/*Aqui comienza diseño del menu*/
+header nav{
+    display: flexbox;
+    text-align: center;
+    flex-direction: row;
+    
+}
+
+header a:hover{
+    color: black;
+}
+/*Aqui termina el diseño del menu*/
+
+/*Aqui va el codigo diseño de cabecera*/
+header{
+    background-color: #fff159;
+    padding: 20px;
+    height: 60px;
+
+}
+/*Aqui termina codigo de cabecera*/
+
+/*Codigo del cuerpo de la pagina*/
+body{
+    margin: 0;
+    background-color: #F0F0F0;
+    
+}
+/*Aqui termina el codigo fuente*/
+
+/*Diseño de los enlaces del menu*/
+a{
+    color: #6E6E6C;
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    margin-right: 10px;
+    
+
+}
+/*Final del diseño del menu*/
+
+/*Diseño de la barra de busqueda*/
+input{
+    border-radius: 1px;
+    border: 1px;
+    padding-top: 20px;
+    width: 34em;
+    font-size: medium;  
+    text-align: start;
+    margin-bottom: 0px;
+    margin-top: 0em;
+    height: 20px;
+    position: absolute;
+    top: 10px; left: 13em;
+
+}
+
+/*Final del diseño*/
+
+/*Estilo de letra de la  "ofertas"*/
+.ofer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 50px;
+    color: gray;
+    margin-bottom: 0px;
+}
+/*Aqui termina*/
+
+/*Aqui para el diseño del enlace al lado de ofertas*/
+.toda{
+    font-family: 'Montserrat', sans-serif;
+    color: #0090FE;
+    font-size: 18px;
+    text-decoration: none;
+}
+/*Aqui termina*/
+
+/*Aqui comienza el diseño de las imagenes de oferta*/
+div.opciones{
+    margin: 1px 20px;
+    margin-right: 30px;
+    float: left;
+    width: 202px;
+    position: relative;
+    top: 0px;
+
+}
+
+div.opciones:hover{
+    box-shadow: 0 5px 5px 5px rgb(168, 167, 167) ;
+}
+/*Aqui termina el diseño de imagenes*/
+
+/*Diseño del apartado de la suscripcion */
+.sus{
+    text-align: center;
+}
+
+button{
+    font-size: 24px;
+    border-radius: 1vh;
+    background-color: #0090FE;
+    color: white;
+}
+button:hover{
+    background-color: #0065B3;
+    cursor: pointer;
+}
+.btn-img{
+    background-image: url(fondobtn2.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 40px;
+    right: 5px;
+    border: 1px;
+    top: 0;
+    font-size: 1.2em;
+    padding: 1em;
+    width: 1142px;
+    text-align: end;
+    border-radius: 2px;
+}
+
+/*Aqui termina el apartado del diseño de la suscripcion*/
+.beneficio{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 50px;
+    color: gray;
+    margin-bottom: 0px;
+}
+.all{
+    font-family: 'Montserrat', sans-serif;
+    color: #0090FE;
+    font-size: 18px;
+    text-decoration: none;
+}
+div.punto{
+    margin: 1px 20px;
+    margin-right: 30px;
+    float: left;
+    width: 350px;
+    position: relative;
+    top: 0px; left: 20px;
+}
+/*Diseño de los beneficios del mercado*/
+
+/*Diseño de los intereses*/
+.interes{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 50px;
+    color: gray;
+    margin-bottom: 0px;
+}
+div.int{
+    margin: 1px 20px;
+    margin-right: 30px;
+    float: left;
+    width: 550px;
+    position: relative;
+    top: 0px; left: 20px;
+}
+div.int:hover{
+    box-shadow: 0 5px 5px 5px rgb(168, 167, 167) ;
+}
+/*Final del diseño de los intereses*/
+
+/*Diseño de categorias populares*/
+.categoria{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 50px;
+    color: gray;
+    margin-bottom: 0px;
+    
+}
+
+div.popular{
+    float: left;
+    width: 166px;
+    height: 165px;
+    padding-left: 9px;
+}
+
+/*Final del diseño de categorias*/
+
+/*Diseño de la descripcion*/
+.descripcion{
+    position: relative;
+    top: 70px;
+}
+
+.boton{
+    position:relative;
+    top: 50px;
+    left: 500px;
+    background-color: white;
+    color: #6E6E6C;
+
+}
+.boton:hover{
+    background-color: white;
+    cursor: pointer;
+}
+/*Final del diseño*/
+
+/*Diseño del pie de pagina*/
+footer{
+    position: relative;
+    top: 100px;
+}
+
+.enti{
+    position: relative;
+    top: 100px;
+}
+
+
+
+
+
+
+
+
+/*Final del diseño del mercado*/
+/*div.enlace{
+    word-spacing: 10em;
+}*/
+/*section a{
+    margin: 0;
+    text-decoration: none;
+    font-size: 20px;
+}*/
+
